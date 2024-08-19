@@ -1,0 +1,58 @@
+.body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/e54a23b9-5f4f-4218-ba09-8e62ba01f9cc/BR-pt-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_f47ff160-2a29-4b8f-849f-20fecdea9010_large.jpg");
+}
+
+.img{
+    width: 15%;
+    margin-left: 15%;
+}
+
+@media (max-width:800px) {
+    .img{
+        width: 40%;
+        margin-left: 0;
+    }
+}
+
+.btnEntrar{
+    background-color: RGB(229, 9, 20);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btnEntrar:hover{
+    cursor: pointer;
+    background-color: rgb(229, 9, 20, 0.8);
+}
+
+.btnCodigoAcesso{
+    background-color: rgb(52, 52, 51, 0.5);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btnCodigoAcesso:hover{
+    cursor: pointer;
+    background-color: rgb(52, 52, 51, 0.3);
+}
+
+.esqueceuSenha:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: grey;
+}
+
+.saibaMais:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footerForm{
+    font-size: 0.9rem;
+}
+
+.linkSaibaMais:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

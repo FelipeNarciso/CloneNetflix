@@ -1,0 +1,41 @@
+.imgLogo {
+    width: 15%;
+}
+
+.imgSlider:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+.imgSlider{
+    transition: 0.5s ease;
+
+}
+
+.btnSair{
+    background-color: red;
+    transition: 0.3s ease;
+}
+
+.btnSair:hover{
+    background-color: rgb(255, 0, 0 , 0.8);
+}
+
+.btnSearch:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btnSearch{
+    transition: 0.5s ease;
+}
+
+.imgPesquisa{
+    transition: 0.3s ease;
+}
+
+.imgPesquisa:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
